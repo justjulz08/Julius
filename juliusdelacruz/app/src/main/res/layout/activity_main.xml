@@ -59,18 +59,19 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
                 android:orientation="vertical">
             <Button
-                android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:layout_height="105dp"
                 android:textSize="30sp"
                 android:background="@color/j"
                 android:text="Profile"/>
 
             <Button
-                android:layout_width="200dp"
-                android:layout_marginTop="20sp"
-                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="105dp"
                 android:textSize="30sp"
                 android:background="@color/j"
                 android:text="Settings"/>
@@ -80,8 +81,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textColor="@color/white"
                 android:text="Im not Friendly"
+                android:textColor="@color/white"
+                android:paddingLeft="30dp"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
